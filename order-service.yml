@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: order-service
+  datasource:
+    url: jdbc:mysql://locahost:3306/order-master
+    driverClassName: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: flase
