@@ -1,0 +1,15 @@
+global:
+  message: welcome to order service prod environment
+server:
+  port: 8085
+message: hello from prod
+spring:
+  datasource:
+    url: jdbc:mysql://locahost:3306/order_pord
+    username: root
+    password: Karan@1709
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  
